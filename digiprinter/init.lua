@@ -77,7 +77,7 @@ end
 -- taken from computer mod xD
 minetest.register_node("digiprinter:printer", {
 	description = "Digiline Printer",
-	inventory_image = "computer_printer_inv.png",
+	inventory_image = "digiprinter_inv.png",
 	tiles = {"digiprinter_t.png","digiprinter_bt.png","digiprinter_l.png",
 			"digiprinter_r.png","digiprinter_b.png","digiprinter_f.png"},
 	paramtype = "light",
