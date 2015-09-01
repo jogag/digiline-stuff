@@ -47,7 +47,7 @@ minetest.register_node("digiboard:keyboard", {
       meta:set_string("channel")
       meta:set_string("formspec", "field[text;Enter text;]")
     elseif fields.text then
-      digiline:receptor_send(pos, digiline.rules.default, channel, text)
+      digiline:receptor_send(pos, digiline.rules.default, channel, fields.text)
     end
   end,
 })
